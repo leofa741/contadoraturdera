@@ -8,7 +8,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item  >
     <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contador-publico-calculo_9843-400x267.jpg?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contador-publico2.jpg?raw=true"
         alt="Second slide"
       />
 
@@ -20,7 +20,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont3.webp?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contador-publico1.jpg?raw=true"
         alt="Second slide"
       />
 
@@ -32,7 +32,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/Contador-público-como-revisor-fiscal.webp?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contador-publico3.jpg?raw=true"
         alt="Third slide"
       />
 
