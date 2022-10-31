@@ -1,16 +1,23 @@
 
 import{Route, Routes} from 'react-router-dom'
 import { AuthRoutes } from '../auth/routes/AuthRoutes'
-import { ContentAuth } from '../contenido/routes/ContentAuth'
+import { NavBar ,Social} from '../contenido/components'
+
+
+import { RoutesContent } from '../contenido/routes/RoutesContent'
 
 export const AppRouter = () => {
   return (
+<>
+
+
+<NavBar />
+
     <Routes>
-
           <Route   path="/auth/*" element={<AuthRoutes />} />
-
-          <Route path="/*" element={<ContentAuth />} />
-
+          <Route path="/*" element={<RoutesContent />} />
     </Routes>
+  <Social />
+    </>
   )
 }

@@ -1,0 +1,99 @@
+
+
+.flotante { 
+       
+        background-image: url('../../../assets/images/whats.png') ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.5s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        z-index: 999;
+        margin: 10px;
+}
+
+.flotante:hover {
+    transform: scale(1.1);
+}
+
+.flotante:active {
+    transform: scale(0.9);
+}
+
+.flotante1 { 
+       
+    background-image: url('../../../assets/images/email-icon.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 999;
+    margin: 10px;
+
+}
+
+.flotante1:hover {
+transform: scale(1.1);
+}
+
+.flotante1:active {
+transform: scale(0.9);
+}
+
+.flotante2 { 
+       
+    background-image: url('../../../assets/images/Facebook.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 999;
+    margin: 10px;
+    
+}
+
+.flotante2:hover {
+transform: scale(1.1);
+}
+
+.flotante2:active {
+transform: scale(0.9);
+}
+.flotante3 { 
+       
+    background-image: url('../../../assets/images/download.webp') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 999;
+    margin: 10px;
+    
+}
+
+.flotante3:hover {
+transform: scale(1.1);
+}
+
+.flotante3:active {
+transform: scale(0.9);
+}
+
+
+
+
