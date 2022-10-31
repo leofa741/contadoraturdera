@@ -8,7 +8,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item  >
     <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/banner-bg-bottom.png?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont2.webp?raw=true"
         alt="Second slide"
       />
 
@@ -20,7 +20,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/service-banner-img.jpg?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont3.webp?raw=true"
         alt="Second slide"
       />
 
@@ -32,7 +32,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/testimonial_bg.png?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont1.webp?raw=true"
         alt="Third slide"
       />
 
