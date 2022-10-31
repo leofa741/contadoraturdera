@@ -8,6 +8,8 @@
     color: #fff;
     text-align: center;
     padding: 40px 15px;
+    box-sizing: border-box;
+    
   }
   
   .big-text {
@@ -22,10 +24,6 @@
         font-weight: 800;
         color: #8394aa;
         animation-delay: 2s;
-
-
-
-
     }
 
 
@@ -44,4 +42,28 @@
     background: #333;
     color: #fff;
     padding: 15px 20px;
+  }
+
+  @keyframes bannerAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .banner {
+      height: 30vh;
+    }
+    .banner h1 {
+      font-size: 50px;
+    }
+    .banner a {
+      font-size: 20px;
+      padding: 10px;
+    }
   }
