@@ -284,8 +284,9 @@ dd, dt {
  
 }
 .nav-color{
-  background-image: linear-gradient(to right top, #051937, #004770, #007c9e, #00b4b7, #12ebba) !important;
+  background-image: url(../images/footer-img.jpg) !important;
   box-shadow: #000  0px 0px 10px 0px !important;
+
  
 }
 .me-auto {
@@ -303,28 +304,26 @@ dd, dt {
   height: 30px;
  
   margin-top: -30px;
-  margin-left: 20px;
+  margin-left: -20px;
   color: #fff;
   font-size: 20px;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-family: 'Robot';
   text-transform: uppercase;
   text-decoration: none !important;
   padding: 10px 0px;
   display: inline-block;
   border: 0;
-  transition: all 300ms linear 0s;
-  
+    
+}
+@media (max-width: 768px) {
+  .nav-logo{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
 
-.nav-logo:hover{
-  color: #fff !important;  
-  font-weight: 600;
-  
 
-  text-decoration: none !important;
-
-}
 
 .nav-link {
     display: block;
@@ -348,12 +347,12 @@ dd, dt {
 }
 
 .nav-link:hover {
-    color: rgb(15, 12, 12) !important;
+    color: #ffa800 !important;
     text-decoration: none !important;
 }
 
 .nav-link-drop:hover {
-  color: rgb(7, 7, 7) !important;
+  color: #ffa800 !important;
   text-decoration: none !important;
 }
 

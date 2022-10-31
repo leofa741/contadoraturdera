@@ -1,5 +1,11 @@
 
+.social-div {
+    position: fixed !important;
+    right: 0;
+    top: 50%;
+    z-index: 2999;
 
+}
 .flotante { 
        
         background-image: url('../../../assets/images/whats.png') ;
@@ -11,8 +17,10 @@
         cursor: pointer;
         transition: all 0.5s;
         box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        z-index: 999;
+        z-index:2999;
         margin: 10px;
+
+        position: fixed important;
 }
 
 .flotante:hover {
@@ -30,13 +38,14 @@
     background-size: 100% 100%;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    
+    
     cursor: pointer;
     transition: all 0.5s;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    z-index: 999;
+    z-index: 2999;
     margin: 10px;
-
+    position: fixed important;
 }
 
 .flotante1:hover {
@@ -58,9 +67,9 @@ transform: scale(0.9);
     cursor: pointer;
     transition: all 0.5s;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    z-index: 999;
+    z-index: 2999;
     margin: 10px;
-    
+    position: fixed important;
 }
 
 .flotante2:hover {
@@ -81,8 +90,9 @@ transform: scale(0.9);
     cursor: pointer;
     transition: all 0.5s;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    z-index: 999;
+    z-index: 2999;
     margin: 10px;
+    position: fixed important;
     
 }
 

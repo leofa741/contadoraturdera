@@ -15,7 +15,7 @@ export const NavBar = () => {
 
   return (
 
-    <Navbar className="nav-color"  collapseOnSelect={true} expand="lg"  >
+    <Navbar className="nav-color"  collapseOnSelect={true} expand="lg" fixed="top"  >
  
       <Container>
         <Navbar.Brand className="nav-logo" to="/">MG & Asoc</Navbar.Brand>

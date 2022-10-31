@@ -1,7 +1,7 @@
 
 import{Route, Routes} from 'react-router-dom'
 import { AuthRoutes } from '../auth/routes/AuthRoutes'
-import { NavBar ,Social} from '../contenido/components'
+import { Footer, NavBar ,Social} from '../contenido/components'
 
 
 import { RoutesContent } from '../contenido/routes/RoutesContent'
@@ -18,6 +18,8 @@ export const AppRouter = () => {
           <Route path="/*" element={<RoutesContent />} />
     </Routes>
   <Social />
+
+  <Footer />
     </>
   )
 }
