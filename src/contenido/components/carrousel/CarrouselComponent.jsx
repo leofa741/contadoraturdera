@@ -30,18 +30,21 @@ export const CarrouselComponent = () => {
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
+    <Carousel.Caption 
+    className='carousel-caption'
+    >
+        <h3  >ASESORAMIENTO CONTABLE</h3>
+        <p   style={{color:"black"}}>
+          Servicios Societarios, Laborales, Administrativos
+        </p>
+      </Carousel.Caption>
       <img
         className="d-block w-100"
         src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/servicio-contabilidad.png?raw=true"
         alt="Third slide"    
       />
 
-      <Carousel.Caption>
-        <h3  >ASESORAMIENTO CONTABLE</h3>
-        <p   style={{color:"black"}}>
-          Servicios Societarios, Laborales, Administrativos
-        </p>
-      </Carousel.Caption>
+      
     </Carousel.Item>
   </Carousel>
   )

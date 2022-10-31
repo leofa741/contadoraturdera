@@ -8,11 +8,24 @@
     left: 0;
     z-index: 1;
     transition: all 0.5s;
+    opacity: 0; 
+  
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s;
     opacity: 0;
-
-    
-  
-  
 }
 
 .carrousel-img img{
@@ -24,7 +37,7 @@
     object-fit: cover;
     object-position: center;
     position: absolute;
-    
+
 }
 
 

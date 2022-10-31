@@ -1,7 +1,21 @@
 import React from 'react'
+import { BannerComponent } from '../components'
+import { ConentLayout } from '../layout/ConentLayout'
 
 export const About = () => {
   return (
-    <div>About</div>
+    <>
+
+    <BannerComponent />
+    <ConentLayout 
+    title="About Page"
+   >
+
+   
+    
+   
+
+   </ConentLayout> 
+   </>
   )
 }
