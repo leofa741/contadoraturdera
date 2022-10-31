@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink,Navigate } from 'react-router-dom';
 
 import {IoReorderThreeOutline} from "react-icons/io5";
 
@@ -28,13 +28,18 @@ export const NavBar = () => {
         
          
             <NavDropdown  title="Servicios" id="basic-nav-dropdown">
-              <NavDropdown.Item className="nav-link-drop" href="#action/3.1"  >Action</NavDropdown.Item>
-              <NavDropdown.Item className="nav-link-drop" href="#action/3.2"  >Another action </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link-drop" href="#action/3.3" >Something</NavDropdown.Item>
+              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+            
+              
+           
               <NavDropdown.Divider />
               <NavDropdown.Item className="nav-link" href="#action/3.4"> Separated link  </NavDropdown.Item>
             </NavDropdown>
-            <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
+              <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
           </Nav>
         </Navbar.Collapse>
       </Container>
