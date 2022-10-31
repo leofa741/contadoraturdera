@@ -1,15 +1,17 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import './carrousel.css';
 
 export const CarrouselComponent = () => {
   return (
     <Carousel fade>
-    <Carousel.Item>
-      <img
+    <Carousel.Item  >
+    <img
         className="d-block w-100"
-        src="./contadoraturdera/src/assets/images/about-banner-img.jpg"
-        alt="First slide"
+        src="src/assets/images/banner-bg-bottom.png"
+        alt="Second slide"
       />
+
       <Carousel.Caption>
         <h3>First slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
