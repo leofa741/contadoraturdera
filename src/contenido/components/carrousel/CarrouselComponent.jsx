@@ -1,17 +1,22 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-
+import './carrousel.css'
 
 export const CarrouselComponent = () => {
   return (
     <Carousel fade 
     className="carrousel"
     >
-    <Carousel.Item  >
+    <Carousel.Item   
+   
+      >
     <img
-        className="d-block w-100"
+        className="img-responsive"
         src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont3.png?raw=true"
         alt="Second slide"
+
+    
+       
       />
 
       <Carousel.Caption>
@@ -21,7 +26,7 @@ export const CarrouselComponent = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
+          className="img-responsive"
         src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contador-publico1.jpg?raw=true"
         alt="Second slide"
       />
@@ -41,7 +46,7 @@ export const CarrouselComponent = () => {
         </p>
       </Carousel.Caption>
       <img
-        className="d-block w-100"
+         className="img-responsive"
         src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/servicio-contabilidad.png?raw=true"
         alt="Third slide"    
       />
