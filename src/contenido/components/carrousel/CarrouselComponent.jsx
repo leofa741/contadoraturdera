@@ -20,7 +20,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="../../src/assets/images/banner-bg-bottom.png"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/service-banner-img.jpg?raw=true"
         alt="Second slide"
       />
 
@@ -32,7 +32,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="../../src/assets/images/service-banner-img.jpg"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/testimonial_bg.png?raw=true"
         alt="Third slide"
       />
 
