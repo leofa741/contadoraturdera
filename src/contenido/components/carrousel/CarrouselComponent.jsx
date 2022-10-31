@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import './carrousel.css';
+
 
 export const CarrouselComponent = () => {
   return (
@@ -32,7 +32,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont1.webp?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/gmasoc.jpg?raw=true"
         alt="Third slide"
       />
 
