@@ -7,7 +7,7 @@ export const CarrouselComponent = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="../../src/assets/images/about-banner-img.jpg"
+        src="/src/assets/images/about-banner-img.jpg"
         alt="First slide"
       />
       <Carousel.Caption>
