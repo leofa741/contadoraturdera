@@ -1,4 +1,5 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -10,40 +11,40 @@ export const Footer = () => {
                <div className="row book_now">
                   <div className="col-md-4">
                      <div className="">
-                        <a className=" logo-biss" href="index.html"> Star Law Firm</a>
+                        <a className=" logo-biss" href="index.html"> 
+                        MG & Asoc
+                        </a>
                      </div>
-                     <p className="footer-h">It is a long established fact that a <br/>reader will be distracted by the <br/> readable content.</p>
-                     <div className="bigpixi-footer-social">
-                        <a href="" target="_blank"><i id="social-fb" className="fa fa-facebook fa-2x social"></i></a>
-                        <a href="" target="_blank"><i id="social-tw" className="fa fa-twitter fa-2x social"></i></a>
-                        <a href="" target="_blank"><i id="social-em" className="fa fa-instagram fa-2x social"></i></a>
-                     </div>
+                     <p className="footer-h">
+                        Estudio Contable e Impositivo MG & Asoc
+
+                     </p>
+                    
                   </div>
                   <div className="col-md-1 ">
                   </div>
                   <div className="col-md-3">
-                     <h2 className="footer-top">QUICK LINKS </h2>
+                     <h2 className="footer-top"> Links  </h2>
                      <ul className="footer-menu">
-                        <li><a href=""> HOME        </a></li>
-                        <li><a href="">THE FIRM  </a> </li>
-                        <li><a href="">PRACTICE AREAS    </a> </li>
-                        <li><a href="">   NEWS & RESOURCES   </a> </li>
-                        <li><a href="">  CONTACT  </a> </li>
+                        <li>  <Link to="/home">Home</Link>    </li>
+                        <li>  <Link to="/about">About</Link>    </li>
+                        <li>  <Link to="/contact">Contact</Link>    </li>
+                      
                      </ul>
                   </div>
                   <div className="col-md-4">
                      <ul className="location">
                         <h2 className="footer-top">Contact Info </h2>
-                        <li className="footer-left-h">505 Thornall St #301, <br/>Edison, NJ 08837, USA</li>
+                        <li className="footer-left-h">Las Orcadas N° 57, <br/>Llavallol, Bs As </li>
                         <li className="footer-left-h"><span className="c_yellow">Email :</span>
-                           <a href=""> enquiry@demo.com </a>
+                           <a href="mailto:contalomas3@hotmail.com "> contalomas3@hotmail.com</a>
                         </li>
-                        <li className="footer-left-h"><span className="c_yellow">Call Us: </span>+1- 982-8-587 452
+                        <li className="footer-left-h"><span className="c_yellow">Call Us: </span>011-3788-3486
                         </li>
                      </ul>
                   </div>
                   <div className="col-md-12">
-                     <p className="color-gray"> Designed by <a href="https://www.navthemes.com">NavThemes </a> and distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+                     <p className="color-gray"> Designed by <a href="https://www.puentesdigitales.com.ar/">www.puentesdgitales.com.ar </a> and distributed by <a href="https://www.puentesdigitales.com.ar/">PuentesDigitales</a></p>
                   </div>
                </div>
             </div>

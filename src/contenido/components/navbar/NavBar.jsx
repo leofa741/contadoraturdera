@@ -25,6 +25,7 @@ export const NavBar = () => {
           <Nav className="me-auto">
           <NavLink  className="nav-link" to="/home" >Home</NavLink >
           <NavLink  className="nav-link" to="/about" >About</NavLink >
+        
          
             <NavDropdown  title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item className="nav-link-drop" href="#action/3.1"  >Action</NavDropdown.Item>
@@ -33,7 +34,7 @@ export const NavBar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item className="nav-link" href="#action/3.4"> Separated link  </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link  className="nav-link" href="#link">contacto</Nav.Link>
+            <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
           </Nav>
         </Navbar.Collapse>
       </Container>
