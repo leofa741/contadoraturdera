@@ -1680,28 +1680,38 @@ label{
 /* Our Partners Area start */
 .bg-parthners{background:#f8f8f8;}
 .email_color_site{
-  color:#999 !important; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
 .our_partners_area .book_now_aera {
+  padding-top: 100px;
   
-  padding: 50px 0;
+
+
 }
 .our_partners_area .book_now_aera .book_now .booking_text {
-  padding-top: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our_partners_area .book_now_aera .book_now .booking_text h4 {
- 
-  color: #364167;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 
 }
 .our_partners_area .book_now_aera .book_now .booking_text p {
-    color: #a6acb7;
-    font-size: 16px;
-    padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
 }
 
 
@@ -2310,8 +2320,12 @@ ul {
 }
 
 .bg_gradient_team{
-    background: #fbf3ee !important;
-    background-image: linear-gradient(to right bottom,#fbf3ee,#fbf3ee,#fbf3ee,#f4f7f8,#f4f7f8)!important;
+  background: linear-gradient(90deg, #232647 0%, #414345 100%);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  
+ 
 }
 .PT-90{
   padding-top: 90PX;
