@@ -1,7 +1,8 @@
 .banner {
     width: 100%;
     height: 50vh;
-    background:url(https://media.tenor.com/crNkPq4HPNgAAAAC/blue-code.gif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/images/contador-publico1.jpg);
+    /* background:url(https://64.media.tumblr.com/db890783496f5e16a3390ccecdb0336c/tumblr_pqpw7uZhtt1uzwgsuo1_400.gifv); */
     /*https://i0.wp.com/media.giphy.com/media/5ERaOy5fQEIAU/giphy.gif*/
     background-size: cover;
     font-size: 80px;
@@ -29,44 +30,39 @@
 
     }
 
-
-
   .banner a {
-    display: inline-block;
-    background: #fff;
-    color: #36465d;
-    text-transform: uppercase;
-    padding: 15px;
+    color: #fff;
     text-decoration: none;
-    font-size: 40px;
-    transition: .3s;
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 10px 20px;
+    border: 1px solid #fff;
+
+
+    display: inline-block;
+    animation-delay: 2s;
+ 
   }
   .banner a:hover {
-    background: #333;
-    color: #fff;
-    padding: 15px 20px;
+    background: #000 !important;
+    color: #fff !important;
+ 
   }
 
-  @keyframes bannerAnimation {
-    0% {
-      opacity: 0;
-      transform: translateY(-100px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+
 
   @media (max-width: 768px) {
     .banner {
       height: 30vh;
     }
     .banner h1 {
-      font-size: 50px;
+      font-size: 30px;
     }
     .banner a {
-      font-size: 20px;
-      padding: 10px;
+    display: block;
+    margin: 20px auto;
+    font-size: 10px;
+
     }
   }
