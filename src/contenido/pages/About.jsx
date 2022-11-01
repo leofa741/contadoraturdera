@@ -1,5 +1,5 @@
 import React from 'react'
-import { BannerComponent } from '../components'
+import { BannerComponent, BannerFooter } from '../components'
 import { ConentLayout } from '../layout/ConentLayout'
 
 export const About = () => {
@@ -8,23 +8,36 @@ export const About = () => {
 
     <BannerComponent />
     <ConentLayout 
-    title="About Page"
-    descrip_1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
-    descrip_2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
-    descrip_block="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
+    title="About Us"
+    descrip_1="Somos una firma joven, emprendedora, conformada por profesionales con diferentes especializaciones, que nace para acompañar a las pequeñas y medianas empresas y pequeñas empresas conocidas como “start ups” que no cuentan con estructura administrativa o contable o que están iniciando actividades."
+    
+    descrip_2="
+   No dudes en contactarnos, estamos para ayudarte. "
+    descrip_block="
+    Estudio Contable e Impositivo MG & Asoc  "
    >
 
    
 <ul>
-                                    <li>Sed ut perspiciatis unde omnis</li>
-                                    <li>Lingues es membres del sam familie</li>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>This is Lorem ipsum dolor sit amet</li>
-                                    <li>consectetur adipisicing elit</li>
+                                    <li>Servicios Contables</li>
+                                    <li>Asesoramiento Impositivo</li>
+                                    <li>Asesoramiento Laboral</li>
+                                    <li>Asesoramiento Legal</li>
+                                    <li>Asesoramiento Financiero</li>
+                                    <li>Asesoramiento Tributario</li>
+                                    <li>Asesoramiento de Seguros</li>
+                                    <li>Asesoramiento de Inversiones</li>
+                                    <li>Asesoramiento societarios</li>
+                                   
                                 </ul>
    
 
    </ConentLayout> 
+   <BannerFooter  
+    descripcion="
+    Atendemos a monotributistas, autónomos, pequeñas y medianas empresas, profesionales, comercios, industrias, etc. Nuestra misión es brindar un servicio integral de calidad, con un trato personalizado y cercano, para que nuestros clientes puedan concentrarse en su actividad principal."
+    
+    />
    </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const BannerFooter = () => {
+export const BannerFooter = ( {descripcion}) => {
   return (
     <>
 
@@ -13,7 +13,7 @@ export const BannerFooter = () => {
                         Estudio Contable e Impositivo <br/>MG & Asoc
                      </h4>
                      <p>
-                     Nuestra misión es brindar un servicio integral de calidad, con un trato personalizado y cercano, para que nuestros clientes puedan concentrarse en su actividad principal.
+                    {descripcion}
                      </p>
                   </div>
                   <div className="col-md-5 p0 book_bottun">

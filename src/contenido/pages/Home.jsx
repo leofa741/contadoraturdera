@@ -44,7 +44,9 @@ export const Home = () => {
 
 
    </ConentLayout>   
-   <BannerFooter  /> 
+   <BannerFooter 
+    descripcion="Est Nuestra misión es brindar un servicio integral de calidad, con un trato personalizado y cercano, para que nuestros clientes puedan concentrarse en su actividad principal.udio Contable e Impositivo MG & Asoc  "
+    /> 
    </>
   )
 }

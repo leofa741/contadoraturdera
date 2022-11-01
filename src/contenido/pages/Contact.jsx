@@ -1,5 +1,5 @@
 import React from 'react'
-import { BannerComponent } from '../components'
+import { BannerComponent, ContactComponent } from '../components'
 import { ConentLayout } from '../layout/ConentLayout'
 
 export const Contact = () => {
@@ -7,19 +7,16 @@ export const Contact = () => {
     <>
     <BannerComponent />
     <ConentLayout 
-    title="Contact Page"
-    descrip_1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
-    descrip_2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
-    descrip_block="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
+    title="Contact Us"
+    descrip_1="  Contactanos y te responderemos a la brevedad. "
+    descrip_2="
+    Estamos en las redes sociales. También puedes contactarnos por WhatsApp. "
+        descrip_block="Estudio Contable e Impositivo MG & Asoc"
    >
+    <ContactComponent />
+    
 
-<ul>
-                                    <li>Sed ut perspiciatis unde omnis</li>
-                                    <li>Lingues es membres del sam familie</li>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>This is Lorem ipsum dolor sit amet</li>
-                                    <li>consectetur adipisicing elit</li>
-                                </ul>
+
     
    
 
