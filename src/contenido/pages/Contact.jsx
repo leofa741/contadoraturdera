@@ -8,9 +8,18 @@ export const Contact = () => {
     <BannerComponent />
     <ConentLayout 
     title="Contact Page"
+    descrip_1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
+    descrip_2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
+    descrip_block="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam mauris, eget aliquam nisl nunc vel mauris."
    >
 
-   
+<ul>
+                                    <li>Sed ut perspiciatis unde omnis</li>
+                                    <li>Lingues es membres del sam familie</li>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>This is Lorem ipsum dolor sit amet</li>
+                                    <li>consectetur adipisicing elit</li>
+                                </ul>
     
    
 
