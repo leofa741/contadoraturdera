@@ -316,6 +316,14 @@ dd, dt {
   border: 0;
     
 }
+.nav-logo:hover{
+  color: #ffa800 !important;
+
+  text-decoration: none !important;
+  
+}
+
+
 @media (max-width: 768px) {
   .nav-logo{
     margin-top: 0px;
