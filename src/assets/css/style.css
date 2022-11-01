@@ -2330,8 +2330,7 @@ ul {
 
 .bg_gradient_team{
   background: linear-gradient(90deg, #232647 0%, #414345 100%);
-  padding: 20px;
-  border-radius: 5px;
+  padding: 20px; 
   margin-top: 20px;
   
  
