@@ -1714,6 +1714,15 @@ label{
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 990px){
+    .our_partners_area .book_now_aera .book_now .booking_text h4 {
+        font-size: 20px;
+    }
+    .our_partners_area .book_now_aera .book_now .booking_text p {
+        font-size: 16px;
+    }
+}
+
 
 
 
