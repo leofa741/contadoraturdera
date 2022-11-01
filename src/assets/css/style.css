@@ -329,10 +329,13 @@ dd, dt {
     display: block;
     padding: 0.5rem 1rem;
     color: #fff !important;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 200;
     text-transform: uppercase;
     text-decoration: none !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: unset;
+
 }
 
 .nav-link-drop{
@@ -349,7 +352,13 @@ dd, dt {
 .nav-link:hover {
     color: #ffa800 !important;
     text-decoration: none !important;
+    transition: all 300ms linear 0s;
+    border-bottom: 0.6px solid #ffa800;
+   
+    
 }
+
+
 
 .nav-link-drop:hover {
   color: #ffa800 !important;

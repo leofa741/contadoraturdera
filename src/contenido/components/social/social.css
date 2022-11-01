@@ -103,6 +103,30 @@ transform: scale(1.1);
 .flotante3:active {
 transform: scale(0.9);
 }
+@media (max-width: 768px) {
+    .flotante {
+        width: 40px;
+        height: 40px;
+        border-radius:40%;        
+    }
+    .flotante1 {
+        width: 40px;
+        height: 40px;
+        border-radius:40%;        
+    }
+    .flotante2 {
+        width: 40px;
+        height: 40px;
+        border-radius:40%;        
+    }
+    .flotante3 {
+        width: 40px;
+        height: 40px;
+        border-radius:40%;        
+    }
+
+    
+}
 
 
 
