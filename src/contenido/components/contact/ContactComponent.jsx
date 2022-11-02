@@ -1,6 +1,8 @@
 import React from 'react'
 import './contact.css'
 import RoomIcon from '@mui/icons-material/Room';
+import CallIcon from '@mui/icons-material/Call';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 export const ContactComponent = () => {
   return (
@@ -37,13 +39,22 @@ export const ContactComponent = () => {
                                 <h4>The Office</h4>
                                 <ul className="list-style-1 no-margin-bottom">
                                     <li>
-                                        <p><RoomIcon/><strong>Address:</strong> Las Orcadas N°57 LLavallol,Bs.As,Argentina</p>
+                                        <p><RoomIcon
+                                        style={{ fontSize: 20 }}
+                                        color="primary"
+                                        /><strong>Address:</strong> Las Orcadas N°57 LLavallol,Bs.As,Argentina</p>
                                     </li>
                                     <li>
-                                        <p><i className="fa fa-globe text-center"></i> <strong>Phone:</strong> (+54) 11-3788-3486 (+54) 11-5825-8825</p>
+                                        <p><CallIcon
+                                        style={{ fontSize: 20 }}
+                                        color="primary"
+                                        /> <strong>Phone:</strong> (+54) 11-3788-3486 (+54) 11-5825-8825</p>
                                     </li>
                                     <li>
-                                        <p><i className="fa fa-envelope text-center"></i> <strong>Email:</strong> <a href='mailto:contaLomas3@hotmail.com' className="email_color_site">envianos un email a "contaLomas3@hotmail.com"</a></p>
+                                        <p><MailOutlineIcon
+                                        style={{ fontSize: 20 }}
+                                        color="primary"
+                                        /> <strong>Email:</strong> <a href='mailto:contaLomas3@hotmail.com' className="email_color_site">envianos un email a "contaLomas3@hotmail.com"</a></p>
                                     </li>
                                 </ul>
                             </div>
