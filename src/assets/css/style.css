@@ -893,6 +893,7 @@ width:30%;
     padding-left: 0px !important;
 }
 .list-style-1 li {
+  text-decoration: none  !important;
     padding: 5px 0;
 }
 .contact-info-section p {
@@ -2395,11 +2396,11 @@ ul {
 .blog-details-content ul li::before,.blog-details-content ul li::after{
     position: absolute;
     left: 0;
-    top: 50%;
+    top:34%;
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #2e7ffe;
+    background: #2f0ad4;
     content: "";
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -2409,7 +2410,7 @@ ul {
 .blog-details-content ul li::after{
     height: 10px;
     width: 10px;
-    background: #2e7ffe;
+    background: #2c2929;
     z-index: 9;
     left: -2px;
 }

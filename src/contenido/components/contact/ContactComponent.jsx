@@ -28,7 +28,7 @@ export const ContactComponent = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="contact-info-section no-padding-top margin-10px-top">
-                                <h4>Get in Touch</h4>
+                                <h4>Contáctanos</h4>
                                 <p> 
 
                                     .</p>
