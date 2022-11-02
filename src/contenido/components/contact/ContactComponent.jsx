@@ -11,25 +11,9 @@ export const ContactComponent = () => {
                 <div className="contact-form-box margin-30px-top">
                     <div className="no-margin-lr" id="success-contact-form" ></div>
                     <form id="contactForm" method="post" className="contact-form" action="sendemail.php">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <input type="text" className="medium-input" maxlength="50" placeholder="Name *" required="required" id="name" name="name"/>
-                            </div>
-                            <div className="col-xs-12 col-sm-6 col-md-6">
-                                <input type="email" className="medium-input" maxlength="70" placeholder="E-mail *" required="required" id="email" name="email"/>
-                            </div>
-                            <div className="col-xs-12 col-sm-6 col-md-6">
-                                <input type="text" className="medium-input" maxlength="70" placeholder="Subject *" required="required" id="subject" name="subject"/>
-                            </div>
-                            <div className="col-md-12">
-                                <textarea className="medium-textarea" rows="12" maxlength="1000" placeholder="Message *" required="required" id="message" name="message"></textarea>
-                            </div>
-                            <div className="col-md-12 sm-margin-30px-bottom">
-                                <div className="top-contact wow fadeInRight text-left" >
-                           <a type="submit" id="#services" href="#services" className="btn btn-primary wow fadeInUp radius-50" data-wow-delay="0.5s" >Send Message</a>
-                        </div>
-                            </div>
-                        </div>
+                    <div className="who_we_area col-md-6 col-sm-6 col-4pad wow fadeInUp">
+                  <img src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/60-606303_transparent-contact-us-banner-png-contact-us-banner.pngs_b.png?raw=true"/>
+               </div>
                     </form>
                 </div>
             </div>
