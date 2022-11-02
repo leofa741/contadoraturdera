@@ -992,6 +992,23 @@ iframe {
     padding: 5px 0;
     list-style-type: none;
 }
+.list-style-1 li i {
+    color: #5e0505 !important;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.list-style-1 li a {
+    color: #232323;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.list-style-1 li a:hover {
+    color: #a11313;
+}
 
 .map_top_h{
     font-weight: 400;
@@ -1678,9 +1695,9 @@ label{
    14.our_partners_area
 ------------------------------------*/
 /* Our Partners Area start */
-.bg-parthners{background:#f8f8f8;}
+.bg-parthners{background:#111010;}
 .email_color_site{
-    color: #fff;
+    color: rgb(56, 49, 49) !important;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;

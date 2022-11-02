@@ -1,4 +1,6 @@
 import React from 'react'
+import './contact.css'
+import RoomIcon from '@mui/icons-material/Room';
 
 export const ContactComponent = () => {
   return (
@@ -7,12 +9,14 @@ export const ContactComponent = () => {
         <div className="row">
             <div className="col-lg-6">
                 <div className="section-heading left">
-                    <h4>Let's Talk about Your Business</h4></div>
+                    <h4>Hablemos de su negocio</h4></div>
                 <div className="contact-form-box margin-30px-top">
                     <div className="no-margin-lr" id="success-contact-form" ></div>
                     <form id="contactForm" method="post" className="contact-form" action="sendemail.php">
-                    <div className="who_we_area col-md-6 col-sm-6 col-4pad wow fadeInUp">
-                  <img src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contact.png?raw=true"/>
+                    <div className="contact-img">
+                  <img 
+                  className='img-fluid'
+                  src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contact.png?raw=true"/>
                </div>
                     </form>
                 </div>
@@ -23,7 +27,9 @@ export const ContactComponent = () => {
                         <div className="col-12">
                             <div className="contact-info-section no-padding-top margin-10px-top">
                                 <h4>Get in Touch</h4>
-                                <p> Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse consequat.</p>
+                                <p> 
+
+                                    .</p>
                             </div>
                         </div>
                         <div className="col-12">
@@ -31,13 +37,13 @@ export const ContactComponent = () => {
                                 <h4>The Office</h4>
                                 <ul className="list-style-1 no-margin-bottom">
                                     <li>
-                                        <p><i className="fa fa-phone text-center"></i> <strong>Address:</strong> Regina ST, London, SK 8GH.</p>
+                                        <p><RoomIcon/><strong>Address:</strong> Las Orcadas N°57 LLavallol,Bs.As,Argentina</p>
                                     </li>
                                     <li>
-                                        <p><i className="fa fa-globe text-center"></i> <strong>Phone:</strong> (+44) 123 456 789</p>
+                                        <p><i className="fa fa-globe text-center"></i> <strong>Phone:</strong> (+54) 11-3788-3486 (+54) 11-5825-8825</p>
                                     </li>
                                     <li>
-                                        <p><i className="fa fa-envelope text-center"></i> <strong>Email:</strong> <a href="javascript:void(0)" className="email_color_site">email@youradress.com</a></p>
+                                        <p><i className="fa fa-envelope text-center"></i> <strong>Email:</strong> <a href='mailto:contaLomas3@hotmail.com' className="email_color_site">envianos un email a "contaLomas3@hotmail.com"</a></p>
                                     </li>
                                 </ul>
                             </div>
