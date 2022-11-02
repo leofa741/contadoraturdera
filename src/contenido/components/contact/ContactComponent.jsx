@@ -12,7 +12,7 @@ export const ContactComponent = () => {
                     <div className="no-margin-lr" id="success-contact-form" ></div>
                     <form id="contactForm" method="post" className="contact-form" action="sendemail.php">
                     <div className="who_we_area col-md-6 col-sm-6 col-4pad wow fadeInUp">
-                  <img src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contact.pngs_b.png?raw=true"/>
+                  <img src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/contact.png?raw=true"/>
                </div>
                     </form>
                 </div>
