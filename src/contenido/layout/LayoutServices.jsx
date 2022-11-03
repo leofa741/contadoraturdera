@@ -1,7 +1,6 @@
+import React from 'react'
 
-
-
-export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block}) => {
+export const LayoutServices = ({children,title,descrip_1,descrip_2}) => {
   return (
     <section className="blog-details-area  wow fadeInUp">
             <div className="container">
@@ -15,9 +14,7 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                                 <h3>{title}</h3>
                                 <p>{descrip_1}</p>
                                 <p>{descrip_2}</p>
-                                <blockquote>
-                                  {descrip_block}
-                                </blockquote>
+                              
                               
                               	    	
                   {children}

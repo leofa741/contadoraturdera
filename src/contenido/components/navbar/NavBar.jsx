@@ -27,7 +27,7 @@ export const NavBar = () => {
           <Nav className="me-auto">
           <NavLink  className="nav-link" to="/home" >Home</NavLink >
           <NavLink  className="nav-link" to="/about" >About</NavLink >
-        
+          <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
           <div className="dropdown" >
   <button >Servicios</button>
   <div className="dropdown-content">
@@ -39,7 +39,7 @@ export const NavBar = () => {
   </div>
 </div>
 
-<NavLink  className="nav-link" to="/contact" >Contact</NavLink >
+
             {/* <NavDropdown  title="Servicios" id="basic-nav-dropdown" >
             <div className="dropdown-content">
              <a><NavLink  className="nav-link-drop" to="/contables" >Contables</NavLink ></a> 
