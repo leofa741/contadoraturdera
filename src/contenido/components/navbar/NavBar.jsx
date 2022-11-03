@@ -8,6 +8,8 @@ import { Link, NavLink,Navigate } from 'react-router-dom';
 
 import {IoReorderThreeOutline} from "react-icons/io5";
 
+import './navbar.css';
+
 export const NavBar = () => {
 
 
@@ -26,19 +28,32 @@ export const NavBar = () => {
           <NavLink  className="nav-link" to="/home" >Home</NavLink >
           <NavLink  className="nav-link" to="/about" >About</NavLink >
         
-         
-            <NavDropdown  title="Servicios" id="basic-nav-dropdown">
-              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
-              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
-              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
-              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
-              <NavLink  className="nav-link-drop" to="/contact" >Contact</NavLink >
+          <div className="dropdown" >
+  <button >Servicios</button>
+  <div className="dropdown-content">
+  <NavLink  className="nav-link-drop" to="/contables" > <a >Contables</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
+  <NavLink  className="nav-link-drop" to="/generales" > <a >Generales</a></NavLink >
+  </div>
+</div>
+            {/* <NavDropdown  title="Servicios" id="basic-nav-dropdown" >
+            <div className="dropdown-content">
+             <a><NavLink  className="nav-link-drop" to="/contables" >Contables</NavLink ></a> 
+             <a> <NavLink  className="nav-link-drop" to="/impositivos" >Impositivos</NavLink ></a>
+             <a> <NavLink  className="nav-link-drop" to="/societarios" >Societarios</NavLink ></a>
+             <a> <NavLink  className="nav-link-drop" to="/laborales" >Laborales</NavLink ></a>
+             <a> <NavLink  className="nav-link-drop" to="/generales" >Generales</NavLink ></a>
             
               
            
               <NavDropdown.Divider />
-              <NavDropdown.Item className="nav-link" href="#action/3.4"> Separated link  </NavDropdown.Item>
-            </NavDropdown>
+              <a> <NavLink  className="nav-link-drop" to="/contact"> Contacto  </NavLink ></a>
+              </div>
+            </NavDropdown> */}
+
+          
               <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
           </Nav>
         </Navbar.Collapse>

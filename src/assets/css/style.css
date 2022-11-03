@@ -2396,11 +2396,11 @@ ul {
 .blog-details-content ul li::before,.blog-details-content ul li::after{
     position: absolute;
     left: 0;
-    top:34%;
+    top:49%;
     width: 10px;
     height: 3px;
     border-radius: 40%;
-    background: #ffffff;
+    background: #030303;
     content: "";
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -2410,7 +2410,7 @@ ul {
 .blog-details-content ul li::after{
     height: 6px;
     width: 14px;
-    background: #2c2929;
+    background: #ffffff;
     z-index: 9;
     left: -2px;
 }
