@@ -7,5 +7,8 @@ export * from './bannerfooter/BannerFooter'
 export * from './contact/ContactComponent'
 export * from './servicios/ContablesComponent'
 export * from './servicios/SocietariosComponent'
+export * from './servicios/ImpositivosComponent'
+export * from './servicios/laboralesComponent'
+export * from './servicios/generalesComponent'
 
 

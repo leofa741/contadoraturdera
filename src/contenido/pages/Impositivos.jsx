@@ -1,7 +1,8 @@
 import React from 'react'
+import { ImpositivosComponent } from '../components'
 
 export const Impositivos = () => {
   return (
-    <div>Impositivos</div>
+    <ImpositivosComponent />
   )
 }

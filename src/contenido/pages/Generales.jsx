@@ -1,7 +1,8 @@
 import React from 'react'
+import { GeneralesComponent } from '../components'
 
 export const Generales = () => {
   return (
-    <div>Generales</div>
+  <GeneralesComponent />
   )
 }
