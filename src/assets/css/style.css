@@ -2962,9 +2962,7 @@ ol {
     padding-left: 0px;
   }
   .my_20{
-    display: block;
-    margin: 20px 0px;
-    text-align: center;
+   display: none;
   }
   .text-left {text-align: center !important;}
   .owl-stage-outer{text-align: center;}
