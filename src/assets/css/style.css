@@ -2959,8 +2959,11 @@ ol {
   .right_icone li{
     text-align: center; 
     background: url(../images/right.png) 0 2px !important;
-    background-repeat: no-repeat;
-    padding-left: 0px;
+    background-repeat: no-repeat  !important;
+    background-size: 20px 20px !important;
+    padding-left: 30px !important;
+    margin-bottom: 10px !important;
+  
     font-size: 12px;
   }
   .my_20{
