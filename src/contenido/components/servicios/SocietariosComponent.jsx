@@ -1,4 +1,5 @@
 import React from 'react'
+import { LayoutBlockete } from '../../layout/LayoutBlockete'
 import { LayoutServices } from '../../layout/LayoutServices'
 import { BannerServices } from './BannerServices'
 
@@ -61,7 +62,10 @@ export const SocietariosComponent = () => {
              </ul>
 
         </BannerServices >
-
+        <LayoutBlockete
+    descrip_block="Nuestro objetivo es brindarle un servicio de calidad y confianza, para que pueda concentrarse en su negocio y no en la parte administrativa y contable. "
+    >
+      </LayoutBlockete>
             </>
   )
 }
