@@ -2960,6 +2960,7 @@ ol {
     text-align: center; 
     background-image: url(../images/right.png) !important;
     padding-left: 0px;
+    font-size: 14px;
   }
   .my_20{
    display: none;
