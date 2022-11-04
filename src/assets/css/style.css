@@ -1035,7 +1035,9 @@ iframe {
   font-weight: 600;
 }
 .my_20{
-  display: none;
+  display: block;
+  margin: 14px 0;
+  text-align: center;
 }
 
 .p-0{
