@@ -2958,7 +2958,7 @@ ol {
   }
   .right_icone li{
     text-align: center; 
-    background-image: none !important;
+    background-image: url(../images/right.png) !important;
     padding-left: 0px;
   }
   .my_20{

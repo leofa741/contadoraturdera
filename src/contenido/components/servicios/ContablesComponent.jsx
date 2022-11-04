@@ -51,7 +51,7 @@ export const ContablesComponent = () => {
                  <img src="assets/images/right.png"/>
               </div>
                 <li> Servicios de auditoría externa y revisiones limitadas de estados contables y financieros  </li>
-                <div className="my_20">
+                <div className="my_20">  
                     <img src="assets/images/right.png"/>
                 </div>
                 <li>   Servicios de auditoría interna, operativa y revisiones de controles internos. </li>
