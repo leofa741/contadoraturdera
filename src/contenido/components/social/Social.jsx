@@ -15,10 +15,8 @@ export const Social = () => {
     <>
     	<div className="social">
 		<ul>
-		
-			<li><a href="https://www.linkedin.com/in" target="_blank" className="icon-linkedin"><LinkedInIcon/></a></li>
-			<li><a href="https://www.instagram.com" target="_blank" className="icon-instagram"><InstagramIcon/></a></li>
-		
+			<li><a href="https://www.facebook.com" target="_blank" className="icon-facebook"><FacebookIcon/></a></li>
+			<li><a href="https://www.instagram.com" target="_blank" className="icon-instagram"><InstagramIcon/></a></li>		
 			<li><a href="https://wa.me/+541137883486" target="_blank" className="icon-whatsapp"><WhatsAppIcon/> </a></li>
 			<li><a href="mailto:contalomas3@hotmail.com" target="_blank" className="icon-mail"><MailOutlineIcon/> </a></li>
 	

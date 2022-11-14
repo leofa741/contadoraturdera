@@ -7,21 +7,17 @@ export const CarrouselComponent = () => {
     <Carousel fade 
     className="carrousel"
     >
-    <Carousel.Item   
-   
+    <Carousel.Item  interval={1000}>   
       >
     <img
         className="img-responsive"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/s_b.png?raw=true"
-        alt="Second slide"
-
-    
-       
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/s_b.png?raw=true"  alt="Second slide"           
+        style={{width: "100%", height: "80%"}}        
       />
 
       <Carousel.Caption>
-        <h3   style={{color:"black"}}>ASESORAMIENTO CONTABLE</h3>
-        <p   style={{color:"black"}}>Estudio Contable e Impositivo MG & Asoc</p>
+        <h3   style={{color:"white"}}>ASESORAMIENTO CONTABLE</h3>
+        <p   style={{color:"white"}}>Estudio Contable e Impositivo MG & Asoc</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -40,7 +36,7 @@ export const CarrouselComponent = () => {
     <Carousel.Caption 
     className='carousel-caption'
     >
-        <h3  >ASESORAMIENTO CONTABLE</h3>
+        <h3 style={{color:"white"}} >ASESORAMIENTO CONTABLE</h3>
         <p   style={{color:"black"}}>
           Servicios Societarios, Laborales, Administrativos
         </p>
