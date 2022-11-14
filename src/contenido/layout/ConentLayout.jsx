@@ -1,4 +1,4 @@
-
+import './contentlayout.css'
 
 
 export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block}) => {
@@ -19,7 +19,7 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                                 <blockquote>
                                   {descrip_block}
                                 </blockquote>
-                              <div className="col-md-12 col-xs-12">
+                              <div className="children">
                               	    	
                                     {children}
                                     </div>
