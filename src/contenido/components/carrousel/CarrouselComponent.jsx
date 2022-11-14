@@ -36,7 +36,7 @@ export const CarrouselComponent = () => {
     <Carousel.Caption 
     className='carousel-caption'
     >
-        <h3 style={{color:"white"}} >ASESORAMIENTO CONTABLE</h3>
+        <h3 style={{color:"black"}} >ASESORAMIENTO CONTABLE</h3>
         <p   style={{color:"black"}}>
           Servicios Societarios, Laborales, Administrativos
         </p>
