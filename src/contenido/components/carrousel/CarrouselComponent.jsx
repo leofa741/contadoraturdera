@@ -8,7 +8,7 @@ export const CarrouselComponent = () => {
     className="carrousel"
     >
     <Carousel.Item  interval={1000}>   
-      >
+      
     <img
         className="img-responsive"
         src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/s_b.png?raw=true"  alt="Second slide"           
