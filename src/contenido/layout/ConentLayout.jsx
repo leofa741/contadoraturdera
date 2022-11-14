@@ -3,7 +3,7 @@
 
 export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block}) => {
   return (
-    <section className="blog-details-area  wow fadeInUp">
+    <section className="blog-details-area ">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-xs-12">
@@ -11,8 +11,7 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                             <div className="blog-details-img">
                                 <img src="assets/images/blog/blog-details.jpg" alt=""/>
                             </div>
-                            <div className="
-                            blog-details-content">
+                            <div className=" blog-details-content">
                             
                                 <h3>{title}</h3>
                                 <p>{descrip_1}</p>
@@ -20,9 +19,10 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                                 <blockquote>
                                   {descrip_block}
                                 </blockquote>
-                              
+                              <div className="col-md-12 col-xs-12">
                               	    	
                                     {children}
+                                    </div>
                                
                             </div>
                 
