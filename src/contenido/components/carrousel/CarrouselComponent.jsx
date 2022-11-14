@@ -7,19 +7,7 @@ export const CarrouselComponent = () => {
     <Carousel fade 
     className="carrousel"
     >
-    <Carousel.Item  interval={1000}>   
-      
-    <img
-        className="img-responsive"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/s_b.png?raw=true"  alt="Second slide"           
-        style={{width: "100%", height: "60%"}}        
-      />
-
-      <Carousel.Caption>
-        <h3   style={{color:"white"}}>ASESORAMIENTO CONTABLE</h3>
-        <p   style={{color:"white"}}>Estudio Contable e Impositivo MG & Asoc</p>
-      </Carousel.Caption>
-    </Carousel.Item>
+   
     <Carousel.Item>
       <img
           className="img-responsive"
