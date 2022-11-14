@@ -12,7 +12,7 @@ export const CarrouselComponent = () => {
       >
     <img
         className="img-responsive"
-        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/bannercont3.png?raw=true"
+        src="https://github.com/leofa741/contadoraturdera/blob/master/src/assets/images/s_b.png?raw=true"
         alt="Second slide"
 
     
