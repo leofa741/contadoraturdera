@@ -12,6 +12,12 @@ import './navbar.css';
 
 export const NavBar = () => {
 
+  //contraer menu
+  const handleCollapse = () => {
+    const nav = document.querySelector('.auto');
+    nav.classList.remove('show');
+  }
+
 
 
 
@@ -23,19 +29,20 @@ export const NavBar = () => {
         <Navbar.Brand className="nav-logo" to="/">MG & Asoc</Navbar.Brand>
         <Navbar.Toggle  style={{textDecoration:"none"}}> <IoReorderThreeOutline style={{color: 'white',fontSize: '2rem',}}/></Navbar.Toggle>
         
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="auto">
           <Nav className="me-auto">
-          <NavLink  className="nav-link" to="/home" >Home</NavLink >
-          <NavLink  className="nav-link" to="/about" >About</NavLink >
-          <NavLink  className="nav-link" to="/contact" >Contact</NavLink >
+          <NavLink  className="nav-link " onClick={handleCollapse}  to="/home" >Home</NavLink >
+          <NavLink  className="nav-link" onClick={handleCollapse} to="/about" >About</NavLink >
+          <NavLink  className="nav-link" onClick={handleCollapse} to="/contact" >Contact</NavLink >
+          
           <div className="dropdown" >
   <button >Servicios</button>
   <div className="dropdown-content">
-  <NavLink  className="nav-link-drop" to="/contables" > <a >Contables</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/impositivos" > <a >Impositivos</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/societarios" > <a >Societarios</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/laborales" > <a >Laborales</a></NavLink >
-  <NavLink  className="nav-link-drop" to="/generales" > <a >Generales</a></NavLink >
+  <NavLink  className="nav-link-drop" onClick={handleCollapse} to="/contables" > <a >Contables</a></NavLink >
+  <NavLink  className="nav-link-drop" onClick={handleCollapse} to="/impositivos" > <a >Impositivos</a></NavLink >
+  <NavLink  className="nav-link-drop" onClick={handleCollapse} to="/societarios" > <a >Societarios</a></NavLink >
+  <NavLink  className="nav-link-drop" onClick={handleCollapse} to="/laborales" > <a >Laborales</a></NavLink >
+  <NavLink  className="nav-link-drop" onClick={handleCollapse} to="/generales" > <a >Generales</a></NavLink >
   </div>
 </div>
 
