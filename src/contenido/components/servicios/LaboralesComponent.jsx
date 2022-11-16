@@ -1,9 +1,44 @@
-import React from 'react'
+import { LinearProgress, Stack } from '@mui/material'
+import React, { useEffect, useState } from 'react'
+import { customFetch } from '../../database/customfech'
+import productos from '../../database/datadb'
+import { ConentLayout } from '../../layout/ConentLayout'
 import { LayoutBlockete } from '../../layout/LayoutBlockete'
 import { LayoutServices } from '../../layout/LayoutServices'
 import { BannerServices } from './BannerServices'
 
 export const LaboralesComponent = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+      
+    customFetch(2000,productos).then((data) => setItems(data));
+   }, []);
+
+  if (items.length === 0) {
+      return (
+       <>
+        <ConentLayout
+        title="Estudio Contable e Impositivo MG & Asoc"
+        descrip_1=""
+        
+        descrip_2="  "
+        descrip_block="contadores.mg.asoc@gmail.com "
+       >
+
+     <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
+    <h5>Cargando... </h5> 
+      <LinearProgress  />
+    </Stack>
+    
+       </ConentLayout>
+        
+        </>
+      );
+      
+  }
+  
+  else{
   return (
     <>
    <LayoutServices
@@ -69,4 +104,5 @@ export const LaboralesComponent = () => {
 
 
   )
+}
 }
