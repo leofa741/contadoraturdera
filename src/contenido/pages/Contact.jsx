@@ -11,7 +11,7 @@ export const Contact = () => {
 
   useEffect(() => {
       
-    customFetch(2000,productos).then((data) => setItems(data));
+    customFetch(3000,productos).then((data) => setItems(data));
    }, []);
 
   if (items.length === 0) {
