@@ -54,7 +54,7 @@ export const ContactComponent = () => {
                                         <p><MailOutlineIcon
                                         style={{ fontSize: 20 }}
                                         color="primary"
-                                        /> <strong>Email:</strong> <a href='mailto:contaLomas3@hotmail.com' className="email_color_site">envianos un email a "contaLomas3@hotmail.com"</a></p>
+                                        /> <strong>Email:</strong> <a href='mailto:contadores.mg.asoc@gmail.com' className="email_color_site">envianos un email a "contadores.mg.asoc@gmail.com"</a></p>
                                     </li>
                                 </ul>
                             </div>
