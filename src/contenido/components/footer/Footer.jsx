@@ -2,9 +2,9 @@
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
+
   return (
-   <>
-   
+      <>   
    <div className="our_footer_area">
          <div className="book_now_aera ">
             <div className="container wow fadeInUp">
@@ -17,7 +17,6 @@ export const Footer = () => {
                      </div>
                      <p className="footer-h">
                         Estudio Contable e Impositivo MG & Asoc
-
                      </p>
                     
                   </div>
@@ -28,8 +27,7 @@ export const Footer = () => {
                      <ul className="footer-menu">
                         <li>  <Link to="/home">Home</Link>    </li>
                         <li>  <Link to="/about">About</Link>    </li>
-                        <li>  <Link to="/contact">Contact</Link>    </li>
-                      
+                        <li>  <Link to="/contact">Contact</Link>    </li>                      
                      </ul>
                   </div>
                   <div className="col-md-4">
@@ -37,7 +35,7 @@ export const Footer = () => {
                         <h2 className="footer-top">Contact Info </h2>
                         <li className="footer-left-h">Las Orcadas N° 57, <br/>Llavallol, Bs As </li>
                         <li className="footer-left-h"><span className="c_yellow">Email :</span>
-                           <a href="mailto:contalomas3@hotmail.com "> contalomas3@hotmail.com</a>
+                           <a href="mailto:contadores.mg.asoc@gmail.com">contadores.mg.asoc@gmail.com</a>
                         </li>
                         <li className="footer-left-h"><span className="c_yellow">Call Us: </span>011-3788-3486
                         </li>
