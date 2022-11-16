@@ -28,7 +28,7 @@ export const GeneralesComponent = () => {
        >
 
      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-    <h5>Cargando... </h5> 
+
       <LinearProgress  />
     </Stack>
     
