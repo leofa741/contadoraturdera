@@ -14,7 +14,7 @@ export const GeneralesComponent = () => {
 
   useEffect(() => {
       
-    customFetch(3000,productos).then((data) => setItems(data));
+    customFetch(5000,productos).then((data) => setItems(data));
    }, []);
 
   if (items.length === 0) {
