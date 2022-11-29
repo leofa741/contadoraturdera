@@ -1,6 +1,6 @@
 import { LinearProgress, Stack } from '@mui/material';
 import React, { useEffect, useState } from 'react'
-import { BannerComponent, ContactComponent } from '../components'
+import { BannerComponent, ContactComponent, LoaderComponent } from '../components'
 import { customFetch } from '../database/customfech';
 import productos from '../database/datadb';
 import { ConentLayout } from '../layout/ConentLayout'
@@ -26,7 +26,7 @@ export const Contact = () => {
        >
 
      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-
+     <LoaderComponent />
       <LinearProgress  />
     </Stack>
     

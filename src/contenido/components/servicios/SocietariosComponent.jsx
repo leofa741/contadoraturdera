@@ -5,6 +5,7 @@ import productos from '../../database/datadb'
 import { ConentLayout } from '../../layout/ConentLayout'
 import { LayoutBlockete } from '../../layout/LayoutBlockete'
 import { LayoutServices } from '../../layout/LayoutServices'
+import { LoaderComponent } from '../loader/LoaderComponent'
 import { BannerServices } from './BannerServices'
 
 export const SocietariosComponent = () => {
@@ -25,9 +26,9 @@ export const SocietariosComponent = () => {
         descrip_2="  "
         descrip_block="contadores.mg.asoc@gmail.com "
        >
-
+ 
      <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-
+     <LoaderComponent />
       <LinearProgress  />
     </Stack>    
        </ConentLayout>        

@@ -10,5 +10,6 @@ export * from './servicios/SocietariosComponent'
 export * from './servicios/ImpositivosComponent'
 export * from './servicios/LaboralesComponent'
 export * from './servicios/GeneralesComponent'
+export * from './loader/LoaderComponent'    
 
 
