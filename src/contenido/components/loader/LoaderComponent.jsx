@@ -13,7 +13,7 @@ export const LoaderComponent = () => {
     gsap.delayedCall(6, ()=> gsap.to('.loader6', {  opacity: 0, duration: 0.2,  ease: 'ease.out' , onComplete: ()=> gsap.to('.loader6', {opacity: 1, duration: 0.2,  ease: 'ease.out'})}))
  
   return (
-    <div> <h3 className='loader' >cargando
+    <div> <h4 className='loader' >cargando
     <span className='loader1'>.</span>
     <span className='loader2'>.</span>
     <span className='loader3'>.</span>
@@ -21,7 +21,7 @@ export const LoaderComponent = () => {
     <span className='loader5'>.</span>
     <span className='loader6'>.</span>
     
-    </h3>
+    </h4>
     </div>
   )
 }
