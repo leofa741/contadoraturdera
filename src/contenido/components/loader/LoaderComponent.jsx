@@ -3,7 +3,7 @@ import {gsap} from 'gsap';
 
 export const LoaderComponent = () => {
     gsap.from('.loader', {y:15, duration: 0.2,  ease: 'ease.out'})
-    .then(()=> gsap.to('.loader', {y:40, duration: 1,  ease: 'ease.out', repeat: -1, yoyo: true}))
+    .then(()=> gsap.to('.loader', {y:30, duration: 1,  ease: 'ease.out', repeat: -1, yoyo: true}))
  
     gsap.delayedCall(1, ()=> gsap.to('.loader1', {  opacity: 0, duration: 0.2,  ease: 'ease.out' , onComplete: ()=> gsap.to('.loader1', {opacity: 1, duration: 0.2,  ease: 'ease.out'})}))
     gsap.delayedCall(2, ()=> gsap.to('.loader2', {  opacity: 0, duration: 0.2,  ease: 'ease.out' , onComplete: ()=> gsap.to('.loader2', {opacity: 1, duration: 0.2,  ease: 'ease.out'})}))
