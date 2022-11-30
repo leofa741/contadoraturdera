@@ -1,6 +1,6 @@
 
 
-import { LinearProgress, Stack } from '@mui/material';
+import {  Stack } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { BannerFooter, CarrouselComponent, LoaderComponent } from '../components';
 import { customFetch } from '../database/customfech';
@@ -33,11 +33,9 @@ export const Home = () => {
          descrip_block="contadores.mg.asoc@gmail.com "
         > 
 
-  
-   <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
+<Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
    <LoaderComponent />
-      <LinearProgress  />
-    </Stack>      
+  </Stack>     
 
         </ConentLayout>
          

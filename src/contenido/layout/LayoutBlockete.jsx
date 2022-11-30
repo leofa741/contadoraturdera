@@ -7,24 +7,17 @@ export const LayoutBlockete = ({children,descrip_block}) => {
         <div className="row">
             <div className="col-md-12 col-xs-12">
                 <div className="blog-details-wrap">
-                    <div className="blog-details-img">
-                        <img src="assets/images/blog/blog-details.jpg" alt=""/>
-                    </div>
+                    
                     <div className="blog-details-content wow fadeInUp">
                        
                         <blockquote>
                           {descrip_block}
-                        </blockquote>
-                      
+                        </blockquote>                      
                                   
-          {children}
-                       
-                    </div>
-        
-      
+                             {children}                       
+                    </div>         
                 </div>
-            </div>
-         
+            </div>         
         </div>
     </div>
 </section>

@@ -1,4 +1,4 @@
-import { LinearProgress, Stack } from '@mui/material'
+import {  Stack } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech'
 import productos from '../../database/datadb'
@@ -27,10 +27,9 @@ export const LaboralesComponent = () => {
         descrip_block="contadores.mg.asoc@gmail.com "
        >
  
-     <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
-     <LoaderComponent />
-      <LinearProgress  />
-    </Stack>
+ <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
+   <LoaderComponent />
+  </Stack>
     
        </ConentLayout>
         

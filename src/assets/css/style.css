@@ -1177,8 +1177,8 @@ margin: 30px 0px; }
 }
 
 .bg_blue_img {
-    background-color: #01020b !important;
-    background: url(../images/bg_video.png) right top no-repeat;
+
+  background-image: linear-gradient(to right, #000314, #080b1e, #0e1228, #111633, #171a3d);
 }
 .hed_img{
     margin: 30px 0px;
@@ -2377,9 +2377,9 @@ ul {
 .blog-details-content blockquote{
     font-size: 16px;
     font-style: italic;
-        background: rgb(39, 40, 156);
+        background:#0d0f2c  !important;
     padding: 30px;
-    border-left: 5px solid rgb(186, 85, 187);
+    border-left: 5px solid rgb(0, 0, 0);
     margin:35px 0px;
     color: #fff;
     border-top-left-radius: 10px;
@@ -2790,7 +2790,7 @@ h3.blog-title {
     color: #fff;
 }
 .about-bottom-s {
-    font-size: 19px;
+    font-size: 16px;
 
 }
 }

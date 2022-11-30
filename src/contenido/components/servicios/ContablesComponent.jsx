@@ -1,4 +1,4 @@
-import { LinearProgress, Stack } from '@mui/material'
+import {  Stack } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { customFetch } from '../../database/customfech'
 import productos from '../../database/datadb'
@@ -11,49 +11,43 @@ import { BannerServices } from './BannerServices'
 export const ContablesComponent = () => {
   const [items, setItems] = useState([]);
 
-  useEffect(() => {
-      
+  useEffect(() => {      
     customFetch(5000,productos).then((data) => setItems(data));
    }, []);
 
   if (items.length === 0) {
+
       return (
        <>
         <ConentLayout
         title="Estudio Contable e Impositivo MG & Asoc"
-        descrip_1=""
-        
+        descrip_1=""        
         descrip_2="  "
         descrip_block="contadores.mg.asoc@gmail.com "
        >
 
+         <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>
+   
+   
+           <LoaderComponent />
 
-     <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>  
-     <LoaderComponent />
-      <LinearProgress  />
-    </Stack>
+          </Stack>
     
-       </ConentLayout>
-        
+       </ConentLayout>        
         </>
       );
       
-  }
-  
-  else{
+  }  else{
   return (
    <>
 
    <LayoutServices
     title="Contables"
-
     descrip_1="Contamos con un equipo de profesionales altamente capacitados para brindarle un servicio de calidad y confianza. Nuestro objetivo es brindarle un servicio de calidad y confianza, para que pueda concentrarse en su negocio y no en la parte administrativa y contable. "
 
     descrip_2="
     brindando soluciones contables integrales a empresas, instituciones y particulares "
 >
-
-
 </LayoutServices>
 
    <BannerServices
@@ -104,6 +98,8 @@ export const ContablesComponent = () => {
    <LayoutBlockete
     descrip_block="Nuestro objetivo es brindarle un servicio de calidad y confianza, para que pueda concentrarse en su negocio y no en la parte administrativa y contable. "
     >
+
+      
       </LayoutBlockete>
     
    </>
