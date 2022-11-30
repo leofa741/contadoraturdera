@@ -13,7 +13,9 @@ export const LoaderComponent = () => {
     gsap.delayedCall(6, ()=> gsap.to('.loader6', {  opacity: 0, duration: 0.2,  ease: 'ease.out' , onComplete: ()=> gsap.to('.loader6', {opacity: 1, duration: 0.2,  ease: 'ease.out'})}))
  
   return (
-    <div> <h4 className='loader' >Loading
+    <div> <h4 className='loader' 
+    style={{color: 'grey', fontSize: '1.2rem',fontFamily:'cursive',  textAlign: 'center', marginTop: '1rem', marginBottom: '2rem'}}>
+    Loading
     <span className='loader1'>.</span>
     <span className='loader2'>.</span>
     <span className='loader3'>.</span>
