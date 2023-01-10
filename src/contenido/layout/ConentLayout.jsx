@@ -4,7 +4,7 @@ import './contentlayout.css'
 export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block}) => {
   return (
     <section className="blog-details-area ">
-            <div className="container">
+            <div className="container"> 
                 <div className="row">
                     <div className="col-md-12 col-xs-12">
                         <div className="blog-details-wrap">

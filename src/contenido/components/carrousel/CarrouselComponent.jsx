@@ -16,15 +16,63 @@ export const CarrouselComponent = () => {
       />
 
       <Carousel.Caption>
-        <h3   style={{color:"black"}}>ASESORAMIENTO CONTABLE</h3>
-        <p  style={{color:"black"}}>Servicios Contables, Impositivos, Generales</p>
+        <h3   style={{color:"black",
+              textShadow: "2px 2px 4px #000000",
+              fontSize: "30px",
+              fontWeight: "bold",
+              fontFamily: "sans-serif",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              textAlign: "center",
+              lineHeight: "1.5",
+              padding: "0 0 0 0",
+              margin: "0 0 0 0",
+              position: "absolute",
+              top: "-30%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              zIndex: "1",
+              width: "100%",
+              color: "white",
+
+      }}>ASESORAMIENTO CONTABLE</h3>
+        <p  style={{color:"black",
+              textShadow: "2px 2px 4px #000000",
+              fontSize: "20px",
+              fontWeight: "bold",
+              fontFamily: "sans-serif",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              textAlign: "center",
+              lineHeight: "1.5",
+              
+      }}>Servicios Contables, Impositivos, Generales</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
     <Carousel.Caption 
     className='carousel-caption'
     >
-        <h3 style={{color:"black"}} >ASESORAMIENTO CONTABLE</h3>
+       <h3   style={{color:"black",
+              textShadow: "2px 2px 4px #000000",
+              fontSize: "30px",
+              fontWeight: "bold",
+              fontFamily: "sans-serif",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              textAlign: "center",
+              lineHeight: "1.5",
+              padding: "0 0 0 0",
+              margin: "0 0 0 0",
+              position: "absolute",
+              top: "-50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              zIndex: "1",
+              width: "100%",
+              color: "white",
+
+      }}>ASESORAMIENTO CONTABLE</h3>
         <p   style={{color:"black"}}>
           Servicios Societarios, Laborales, Administrativos
         </p>

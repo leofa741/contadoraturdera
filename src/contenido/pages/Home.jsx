@@ -33,22 +33,17 @@ export const Home = () => {
          descrip_block="contadores.mg.asoc@gmail.com "
         > 
 
-<Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
-   <LoaderComponent />
-  </Stack>     
+        <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
+          <LoaderComponent />
+        </Stack>     
 
-        </ConentLayout>
-         
+        </ConentLayout>          
          </>
        );
        
    }
    
    else{
-
-
-
-
   return (
    <>
    <CarrouselComponent />
