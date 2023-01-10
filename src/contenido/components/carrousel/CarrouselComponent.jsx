@@ -73,7 +73,17 @@ export const CarrouselComponent = () => {
               color: "white",
 
       }}>ASESORAMIENTO CONTABLE</h3>
-        <p   style={{color:"black"}}>
+        <p  style={{color:"black",
+              textShadow: "2px 2px 4px #000000",
+              fontSize: "20px",
+              fontWeight: "bold",
+              fontFamily: "sans-serif",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              textAlign: "center",
+              lineHeight: "1.5",
+              
+      }}>
           Servicios Societarios, Laborales, Administrativos
         </p>
       </Carousel.Caption>
