@@ -25,7 +25,7 @@ export const GeneralesComponent = () => {
         descrip_1=""
         
         descrip_2="  "
-        descrip_block="contadores.mg.asoc@gmail.com "
+        descrip_block="estudiomg_asociados@outlook.com"
        >
 
 <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
@@ -48,22 +48,14 @@ export const GeneralesComponent = () => {
 
        descrip_1="Contamos con un equipo de profesionales que se encargan de la administración de su empresa, con el fin de que usted pueda dedicarse a lo que realmente le gusta, su negocio. Nuestro objetivo es que usted pueda concentrarse en su negocio y nosotros nos encarguemos de la administración de su empresa. Nuestro servicio de administración de empresas incluye:"
 
-         descrip_2=" - Asesoramiento en la toma de decisiones
-          "  
-
-
-        >
+         descrip_2=" - Asesoramiento en la toma de decisiones">
 
         </LayoutServices>
 
         <BannerServices
     title="Servicios Generales"
 
-    subtitle="
-    Nuestros servicios incluyen: 
-     "
-
-    >
+    subtitle="Nuestros servicios incluyen: "  >
   <ul className="right_icone">
                 <div className="my_20">
                  <img src="assets/images/right.png"/>
@@ -86,8 +78,7 @@ export const GeneralesComponent = () => {
 
         </BannerServices >
         <LayoutBlockete
-    descrip_block="Nuestro objetivo es brindarle un servicio de calidad y confianza, para que pueda concentrarse en su negocio y no en la parte administrativa y contable. "
-    >
+    descrip_block="Nuestro objetivo es brindarle un servicio de calidad y confianza, para que pueda concentrarse en su negocio y no en la parte administrativa y contable. ">
       </LayoutBlockete>
    
    </>

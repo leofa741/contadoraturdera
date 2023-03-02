@@ -30,7 +30,7 @@ export const Home = () => {
          descrip_1=""
          
          descrip_2="  "
-         descrip_block="contadores.mg.asoc@gmail.com "
+         descrip_block="estudiomg_asociados@outlook.com "
         > 
 
         <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   

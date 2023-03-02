@@ -26,7 +26,7 @@ export const NavBar = () => {
     <Navbar className="nav-color"  collapseOnSelect={true} expand="lg" fixed="top"  >
  
       <Container>
-        <Navbar.Brand className="nav-logo" to="/">MG & Asoc</Navbar.Brand>
+        <Navbar.Brand className="nav-logo" to="/" >MG & Asoc</Navbar.Brand>
         <Navbar.Toggle  style={{textDecoration:"none"}}> <IoReorderThreeOutline style={{color: 'white',fontSize: '2rem',}}/></Navbar.Toggle>
         
         <Navbar.Collapse id="basic-navbar-nav" className="auto">

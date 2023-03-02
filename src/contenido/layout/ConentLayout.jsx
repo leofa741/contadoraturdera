@@ -24,12 +24,9 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                                     {children}
                                     </div>
                                
-                            </div>
-                
-              
+                            </div>       
                         </div>
-                    </div>
-                 
+                    </div>                 
                 </div>
             </div>
         </section>

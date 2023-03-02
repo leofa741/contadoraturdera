@@ -48,13 +48,13 @@ export const ContactComponent = () => {
                                         <p><CallIcon
                                         style={{ fontSize: 20 }}
                                         color="primary"
-                                        /> <strong>Phone:</strong> (+54) 11-3788-3486 (+54) 11-5825-8825</p>
+                                        /> <strong>Phone:</strong> (+54) 11-2254-7722</p>
                                     </li>
                                     <li>
                                         <p><MailOutlineIcon
                                         style={{ fontSize: 20 }}
                                         color="primary"
-                                        /> <strong>Email:</strong> <a href='mailto:contadores.mg.asoc@gmail.com' className="email_color_site">envianos un email a "contadores.mg.asoc@gmail.com"</a></p>
+                                        /> <strong>Email:</strong> <a href='mailto:estudiomg_asociados@outlook.com' className="email_color_site">envianos un email a "estudiomg_asociados@outlook.com"</a></p>
                                     </li>
                                 </ul>
                             </div>

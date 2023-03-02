@@ -22,7 +22,7 @@ export const BannerFooter = ( {descripcion}) => {
                      <div className="col-md-7">
                         <div className="top-banner wow fadeInRight text-left" >
                            <a id="#services" href="
-                           https://api.whatsapp.com/send?phone=-5491137883486&text=Hola%20MG%20Asoc%20me%20gustaria%20saber%20mas%20sobre%20sus%20servicios                        
+                           https://api.whatsapp.com/send?phone=-5491122547722&text=Hola%20MG%20Asoc%20me%20gustaria%20saber%20mas%20sobre%20sus%20servicios                        
                            " className="btn btn-primary radius-50  wow fadeInUp  js-scroll-trigger" data-wow-delay="0.5s" >Contáctanos</a>
                         </div>
                      </div>

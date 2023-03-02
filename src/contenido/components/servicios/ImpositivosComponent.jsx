@@ -25,8 +25,7 @@ export const ImpositivosComponent = () => {
         descrip_1=""
         
         descrip_2="  "
-        descrip_block="contadores.mg.asoc@gmail.com "
-       >
+        descrip_block="estudiomg_asociados@outlook.com" >
 
 <Stack sx={{ width: '100%', color: 'grey.500',justifyContent:'center' , alignItems:'center' }} spacing={2}>   
    <LoaderComponent />
@@ -58,10 +57,7 @@ export const ImpositivosComponent = () => {
     title="Impositivos"
 
     subtitle="
-    Nuestros servicios incluyen: 
-     "
-
-    >
+    Nuestros servicios incluyen:  " >
   <ul className="right_icone">
                 <div className="my_20">
                  <img src="assets/images/right.png"/>

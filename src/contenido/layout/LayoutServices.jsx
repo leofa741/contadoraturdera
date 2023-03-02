@@ -13,18 +13,11 @@ export const LayoutServices = ({children,title,descrip_1,descrip_2}) => {
                             <div className="blog-details-content wow fadeInUp">
                                 <h3>{title}</h3>
                                 <p>{descrip_1}</p>
-                                <p>{descrip_2}</p>
-                              
-                              
-                              	    	
-                  {children}
-                               
-                            </div>
-                
-              
+                                <p>{descrip_2}</p>     
+                                   {children}                               
+                            </div>             
                         </div>
-                    </div>
-                 
+                    </div>                 
                 </div>
             </div>
         </section>
