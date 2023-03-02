@@ -16,7 +16,11 @@ export const ConentLayout = ({children,title,descrip_1,descrip_2,descrip_block})
                                 <h3>{title}</h3>
                                 <p>{descrip_1}</p>
                                 <p>{descrip_2}</p>
-                                <blockquote>
+                                <blockquote
+                                style={{borderLeft: '5px solid #e6e6e6',paddingLeft: '20px',margin: '30px 0',fontSize: '12px',lineHeight: '30px',color: '#666666',fontStyle: 'italic',fontWeight: '400',fontFamily: 'Open Sans, sans-serif'}}
+                                >
+
+                                  
                                   {descrip_block}
                                 </blockquote>
                               <div className="children">

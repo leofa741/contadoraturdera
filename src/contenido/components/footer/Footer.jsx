@@ -39,7 +39,7 @@ export const Footer = () => {
                            style={{color: "white",
                            textDecoration: "none",
                            fontWeight: "bold",
-                           fontSize: "1rem"
+                           fontSize: "0.9rem"
                         }}
                             href="mailto:estudiomg_asociados@outlook.com">estudiomg_asociados@outlook.com</a>
                         </li>
