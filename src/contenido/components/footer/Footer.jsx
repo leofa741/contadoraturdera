@@ -35,7 +35,13 @@ export const Footer = () => {
                         <h2 className="footer-top">Contact Info </h2>
                         <li className="footer-left-h">Las Orcadas N° 57, <br/>Llavallol, Bs As </li>
                         <li className="footer-left-h"><span className="c_yellow">Email :</span>
-                           <a href="mailto:estudiomg_asociados@outlook.com">estudiomg_asociados@outlook.com</a>
+                           <a
+                           style={{color: "white",
+                           textDecoration: "none",
+                           fontWeight: "bold",
+                           fontSize: "1.2rem"
+                        }}
+                            href="mailto:estudiomg_asociados@outlook.com">estudiomg_asociados@outlook.com</a>
                         </li>
                         <li className="footer-left-h"><span className="c_yellow">Call Us: </span>011-2254-7722
                         </li>
